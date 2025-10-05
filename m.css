@@ -1,0 +1,9 @@
+.catalog__list {
+    display: flex;
+    gap: 30px 39px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 360px;
+}

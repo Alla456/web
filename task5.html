@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название сайта</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="m.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Ocean<span>Legacy</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Меню</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О компании</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Ocean Legacy</h1>
+                <p class="hero__subtitle">Упрощаем для вас покупку яхты</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Каталог</a>
+                    <a href="#contacts" class="btn btn--outline">Контакты</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                        <img src="about.png" alt="">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section-title">Искусство яхтинга</h2>
+                        <p class="about__text">Выбор яхты — это первый шаг в большом путешествии. Это тонкий процесс, в
+                            котором должны совпасть ваши амбиции, стиль и планы. Наша роль — быть вашим проводником и
+                            экспертом, чтобы ваша яхта стала не просто покупкой, а идеальным спутником.</p>
+                        <p class="about__text">Искусство яхтинга начинается здесь. Ocean Legacy— это галерея, где каждая
+                            яхта является шедевром дизайна и инженерной мысли. Мы понимаем, что вы выбираете не просто
+                            средство передвижения, а стиль жизни, воплощение свободы и мечту о бескрайних горизонтах.
+                            Позвольте нам помочь вам обрести идеального спутника для ваших самых ярких морских
+                            приключений. Ваша океанская история начинается с одного клика</p>
+                        <ul class="about__features">
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-duotone fa-solid fa-thumbs-up"></i> &nbsp;
+                                <span>Экспертиза и глубокое понимание рынка</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-duotone fa-solid fa-thumbs-up"></i> &nbsp;
+                                <span>Безупречный сервис и индивидуальный подход</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-duotone fa-solid fa-thumbs-up"></i> &nbsp;
+                                <span>Широкий и эксклюзивный выбор</span>
+                            <li class="feature-item">
+                                <i class="fa-duotone fa-solid fa-thumbs-up"></i> &nbsp;
+                                <span>Честность и прозрачность</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-duotone fa-solid fa-thumbs-up"></i> &nbsp;
+                                <span>Забота, которая не заканчивается с покупкой</span>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Каталог</h2>
+                <div class="catalog__list">
+                    <div class="menu-item">
+                        <img class="menu-item__image" src="image-1.png" alt="">
+                        <h3 class="menu-item__title">ISA 80 CONTINENTAL</h3>
+                        <p class="menu-item__description">79.90 м</p>
+                        <span class="menu-item__price">Цена по запросу</span>
+                    </div>
+                    <div class="menu-item">
+                        <img class="menu-item__image" src="image-2.png" alt="">
+                        <h3 class="menu-item__title">Tankoa T55 Sportiva</h3>
+                        <p class="menu-item__description">56.00 м</p>
+                        <span class="menu-item__price">35 000 000€</span>
+                    </div>
+                    <div class="menu-item">
+                        <img class="menu-item__image" src="image-3.png" alt="">
+                        <h3 class="menu-item__title">Mangusta Oceano 52</h3>
+                        <p class="menu-item__description">51.10 м</p>
+                        <span class="menu-item__price">Цена по запросу</span>
+                    </div>
+                    <div class="menu-item">
+                        <img class="menu-item__image" src="image-4.png" alt="">
+                        <h3 class="menu-item__title">EXTRA X130 ALLOY</h3>
+                        <p class="menu-item__description">39.80 м</p>
+                        <span class="menu-item__price">Цена по запросу</span>
+                    </div>
+                    <div class="menu-item">
+                        <img class="menu-item__image" src="image-5.png" alt="">
+                        <h3 class="menu-item__title">Azimut Grande 26 METRI</h3>
+                        <p class="menu-item__description">26.09 м</p>
+                        <span class="menu-item__price">7 093 750€</span>
+                    </div>
+                    <div class="menu-item">
+                        <img class="menu-item__image" src="image-6.png" alt="">
+                        <h3 class="menu-item__title">Extra X90 Fast</h3>
+                        <p class="menu-item__description">26.70 м</p>
+                        <span class="menu-item__price">Цена по запросу</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Профессионалы высшего уровня! Нашли именно то, о чем мечтал. Спасибо за
+                            безупречную сделку</p>
+                        <div class="review__author">
+                            <img src="avatar-1.png" alt="" class="review__photo">
+                            <span class="review__name">Артем</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Мечта сбылась. Команда провела нас от первой консультации до передачи
+                            ключей без единой проблемы</p>
+                        <div class="review__author">
+                            <img src="avatar-3.png" alt="" class="review__photo">
+                            <span class="review__name">Юля</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Приятно иметь дело с экспертами. Чувствуется, что живут своим делом.
+                            Яхта в идеальном состоянии</p>
+                        <div class="review__author">
+                            <img src="avatar-2.png" alt="" class="review__photo">
+                            <span class="review__name">Владимир</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        e
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>г. Сочи, ул. Приморская, 15</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+7(976)468-88-01</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>info@your-site.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>Пн-Пт 9:00 - 20:00 <br> Сб-Вс 10:00-19:00 </span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.57857745188!2d39.723624193729115!3d43.5736636654962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f5c984041cb5a7%3A0x91d23fecd336fa97!2z0J_RgNC40LzQvtGA0YHQutCw0Y8g0YPQuy4sIDE1LCDQodC-0YfQuCwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksIDM1NDAwMA!5e0!3m2!1sru!2sru!4v1759428532390!5m2!1sru!2sru"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Ocean<span>Legacy</span></a>
+                    <p class="footer__text">Упрощаем для вас покупку яхты</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">Меню</a></li>
+                        <li><a href="#about" class="footer__link">О компании</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright 2025.Все права защищены </p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
